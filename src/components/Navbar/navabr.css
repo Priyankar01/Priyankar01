@@ -1,0 +1,52 @@
+:root {
+	--color1: #113946;
+	--color2: #bca37f;
+	--color3: #ead7bb;
+	--color4: #fff2d8;
+	--color5: #f4dfc8;
+}
+
+li {
+	list-style: none;
+}
+.navbar {
+	background-color: #f4dfc8;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.navbar-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #f4dfc8;
+	padding: 0.5rem 10rem;
+}
+.navbar-logo {
+	max-width: 3rem;
+	height: auto;
+}
+
+.navbar-link-list {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.navbar-link-list li {
+	padding: 0.2rem;
+	border-radius: 0.5rem;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+.navbar-link-list li:hover {
+	background-color: #113946;
+	color: #f4dfc8;
+}
+.navbar-link-list li link:hover {
+	color: #f4dfc8;
+}
