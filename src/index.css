@@ -1,0 +1,14 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	background-color: #f4dfc8;
+	padding: 0rem;
+	margin: 0px;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
