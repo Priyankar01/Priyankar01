@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	/* background-color: #113946; */
 	padding: 16rem 5rem;
 }
 
@@ -63,6 +62,17 @@
 	display: flex;
 }
 .landing-right-section img {
-	width: 22rem;
+	max-width: 22rem;
 	height: auto;
+}
+
+@media screen and (max-width: 900px) {
+	.landing-wrapper {
+		flex-direction: column-reverse;
+		padding: 10rem 2rem;
+	}
+	.landing-right-section img {
+		width: 15rem;
+		height: auto;
+	}
 }

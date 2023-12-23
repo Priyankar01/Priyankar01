@@ -12,7 +12,6 @@ li {
 .navbar {
 	background-color: #f4dfc8;
 	position: fixed;
-	top: 0;
 	width: 100%;
 	z-index: 10;
 }
@@ -51,6 +50,23 @@ li {
 	color: #f4dfc8;
 }
 
-@media screen and (max-width: 900px) {
+.navbar-menu-bar {
+	/* font-size: large; */
+	display: none;
+}
 
+@media screen and (max-width: 900px) {
+	.navbar-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: green;
+		padding: 1rem 2rem;
+	}
+	.navbar-link-list {
+		display: none;
+	}
+	.navbar-menu-bar {
+		display: block;
+	}
 }

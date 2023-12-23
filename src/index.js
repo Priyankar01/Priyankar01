@@ -15,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 		<Navbar />
 		<Landing />
 		<About />
+		<Footer />
 	</React.StrictMode>
 );

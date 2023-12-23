@@ -1,7 +1,8 @@
 import React from 'react';
 import './navabr.css';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import Logo from '../../assets/logo.png';
+import MenuIcon from '@mui/icons-material/MenuRounded';
 
 function Navbar() {
 	return (
@@ -14,7 +15,11 @@ function Navbar() {
 					<div className="navbar-link-section">
 						<ul className="navbar-link-list">
 							<li>
-								<Link activeClass="active" to="about" offset={-10} duration={100}>
+								<Link
+									activeClass="active"
+									to="about"
+									offset={-10}
+									duration={100}>
 									About
 								</Link>
 							</li>
@@ -56,6 +61,9 @@ function Navbar() {
 							</li>
 						</ul>
 					</div>
+					<span className="navbar-menu-bar">
+						<MenuIcon fontSize='large'/>
+					</span>
 				</div>
 			</nav>
 		</>

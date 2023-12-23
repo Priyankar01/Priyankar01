@@ -6,7 +6,6 @@ import Timing from '../../assets/timing.png';
 import Responsive from '../../assets/responsive.png';
 import Logo from '../../assets/coding-man-icon.png';
 
-
 function About() {
 	return (
 		<>
@@ -67,9 +66,9 @@ function About() {
 					<div class="about-personal">
 						<div class="about-personal-info">
 							<div>
-								<img src={Logo} alt="My Pic" />
+								<img className="about-personal-img" src={Logo} alt="My Pic" />
 							</div>
-							<div>
+							<div className="about-personal-content">
 								<h1>Who's this guy?</h1>
 								<p>
 									I'm <strong>Priyankar Dutta</strong>, and I wear the hat of
@@ -87,9 +86,9 @@ function About() {
 									collective enthusiasm for [your niche]. Thank you for being a
 									part of our journey!
 								</p>
+								<div class="about-personal-skills">Skills</div>
 							</div>
 						</div>
-						<div class="about-personal-skills"></div>
 					</div>
 				</div>
 			</section>
