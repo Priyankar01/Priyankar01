@@ -50,3 +50,7 @@ li {
 .navbar-link-list li link:hover {
 	color: #f4dfc8;
 }
+
+@media screen and (max-width: 900px) {
+
+}
