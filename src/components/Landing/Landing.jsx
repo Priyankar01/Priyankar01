@@ -7,11 +7,11 @@ function Landing() {
 	return (
 		<>
 			<section id="landing">
-				<div class="landing-wrapper">
-					<div class="landing-left-section">
+				<div className="landing-wrapper">
+					<div className="landing-left-section">
 						<h1>
 							Hello, I am
-							<span class="name"> Priyankar Dutta</span>, <br />
+							<span className="name"> Priyankar Dutta</span>, <br />
 							I'm a full-stack web developer.
 						</h1>
 						<Link
@@ -19,12 +19,12 @@ function Landing() {
 							to="about"
 							offset={-10}
 							duration={100}
-							class="landing-btn">
+							className="landing-btn">
 							View my work
 						</Link>
 					</div>
-					<div class="landing-right-section">
-						<img class="landing-image" src={LandingImg} alt="" />
+					<div className="landing-right-section">
+						<img className="landing-image" src={LandingImg} alt="" />
 					</div>
 				</div>
 			</section>

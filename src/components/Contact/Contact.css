@@ -1,0 +1,86 @@
+#contact {
+	background-color: #252934;
+}
+
+.contact-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 3rem 0rem;
+	background-color: #252934;
+	color: #fff;
+	gap: 1rem;
+}
+.contact-heading p {
+	font-size: 3rem;
+	margin: 0px;
+}
+.contact-question {
+	color: #04c2c9;
+}
+.contact-form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	gap: 5px;
+	color: #fff;
+}
+.contact-form input {
+	font-family: inherit;
+	background: #1e242c;
+	border: none;
+	padding: 10px;
+	width: 30rem;
+	height: 2rem;
+	font-size: 1rem;
+	color: #fff;
+}
+textarea {
+	font-family: inherit;
+	background: #1e242c;
+	border: none;
+	padding: 10px;
+	width: 30rem;
+	height: 9rem;
+	font-size: 1rem;
+	color: #fff;
+}
+
+.contact-btn {
+	float: right;
+	background: transparent;
+	border: 2px solid #fff;
+	padding: 0.6rem 2rem;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.contact-btn:hover {
+	background-color: #04c2c9;
+	border: 2px solid #04c2c9;
+	color: #fff;
+}
+
+@media screen and (max-width: 950px) {
+    .contact-form input {
+        font-family: inherit;
+        background: #1e242c;
+        border: none;
+        padding: 10px;
+        width: 20rem;
+        height: 2rem;
+        font-size: 1rem;
+        color: #fff;
+    }
+    textarea {
+        font-family: inherit;
+        background: #1e242c;
+        border: none;
+        padding: 10px;
+        width: 20rem;
+        height: 9rem;
+        font-size: 1rem;
+        color: #fff;
+    }
+}

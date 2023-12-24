@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './about.css';
 import Dynamic from '../../assets/dynamic.png';
 import Proactive from '../../assets/proactive.png';
@@ -10,61 +10,61 @@ function About() {
 	return (
 		<>
 			<section id="about">
-				<div class="about-wrapper">
-					<div class="about-heading">
+				<div className="about-wrapper">
+					<div className="about-heading">
 						<h1>About</h1>
 					</div>
-					<div class="about-points">
-						<ul class="about-points-list">
-							<li class="about-list-item">
-								<div class="about-list-item-img">
+					<div className="about-points">
+						<ul className="about-points-list">
+							<li className="about-list-item">
+								<div className="about-list-item-img">
 									<div>
 										<img src={Timing} alt="" width="50px" />
 									</div>
 								</div>
-								<div class="about-list-item-topic">Fast</div>
-								<div class="about-list-item-tag">
+								<div className="about-list-item-topic">Fast</div>
+								<div className="about-list-item-tag">
 									Fast load times and lag free interaction, my highest priority.
 								</div>
 							</li>
-							<li class="about-list-item">
-								<div class="about-list-item-img">
+							<li className="about-list-item">
+								<div className="about-list-item-img">
 									<div>
 										<img src={Responsive} alt="" width="50px" />
 									</div>
 								</div>
-								<div class="about-list-item-topic">Responsive</div>
-								<div class="about-list-item-tag">
+								<div className="about-list-item-topic">Responsive</div>
+								<div className="about-list-item-tag">
 									My layouts will work on any device, big or small.
 								</div>
 							</li>
-							<li class="about-list-item">
-								<div class="about-list-item-img">
+							<li className="about-list-item">
+								<div className="about-list-item-img">
 									<div>
 										<img src={Proactive} alt="" width="50px" />
 									</div>
 								</div>
-								<div class="about-list-item-topic">Intuitive</div>
-								<div class="about-list-item-tag">
+								<div className="about-list-item-topic">Intuitive</div>
+								<div className="about-list-item-tag">
 									Strong preference for easy to use, intuitive UX/UI.
 								</div>
 							</li>
-							<li class="about-list-item">
-								<div class="about-list-item-img">
+							<li className="about-list-item">
+								<div className="about-list-item-img">
 									<div>
 										<img src={Dynamic} alt="" width="50px" />
 									</div>
 								</div>
-								<div class="about-list-item-topic">Dynamic</div>
-								<div class="about-list-item-tag">
+								<div className="about-list-item-topic">Dynamic</div>
+								<div className="about-list-item-tag">
 									Websites don't have to be static, I love making pages come to
 									life.
 								</div>
 							</li>
 						</ul>
 					</div>
-					<div class="about-personal">
-						<div class="about-personal-info">
+					<div className="about-personal">
+						<div className="about-personal-info">
 							<div>
 								<img className="about-personal-img" src={Logo} alt="My Pic" />
 							</div>
@@ -86,7 +86,7 @@ function About() {
 									collective enthusiasm for [your niche]. Thank you for being a
 									part of our journey!
 								</p>
-								<div class="about-personal-skills">Skills</div>
+								<div className="about-personal-skills">Skills</div>
 							</div>
 						</div>
 					</div>
