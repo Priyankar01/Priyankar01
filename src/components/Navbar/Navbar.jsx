@@ -41,15 +41,7 @@ function Navbar() {
 									Projects
 								</Link>
 							</li>
-							<li>
-								<Link
-									activeClass="active"
-									to="speaking"
-									offset={0}
-									duration={100}>
-									Speaking
-								</Link>
-							</li>
+
 							<li>
 								<Link
 									activeClass="active"
@@ -62,7 +54,7 @@ function Navbar() {
 						</ul>
 					</div>
 					<span className="navbar-menu-bar">
-						<MenuIcon fontSize='large'/>
+						<MenuIcon fontSize="large" />
 					</span>
 				</div>
 			</nav>
