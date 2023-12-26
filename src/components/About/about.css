@@ -15,6 +15,11 @@
 	font-size: 3rem;
 	font-weight: 500;
 	font-family: inherit;
+	margin: 0px;
+}
+.about-heading {
+	padding-top: 3rem;
+	text-align: center;
 }
 
 .about-points-list {
@@ -70,6 +75,21 @@
 }
 .about-personal-img {
 	width: 25rem;
+}
+
+.about-personal-skills {
+	display: flex;
+	/* background-color: #616161; */
+	padding: 0px;
+	margin: 0px;
+}
+
+.skills-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin: 0px;
+	padding: 0px;
 }
 
 @media screen and (max-width: 950px) {

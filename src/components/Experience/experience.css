@@ -1,1 +1,24 @@
+#experience {
+	background-color: #fff;
+	font-family: inherit;
+	padding: 5rem;
+}
 
+.exp-heading {
+	text-align: center;
+}
+
+.exp-heading h1 {
+	font-size: 3rem;
+	font-weight: 500;
+	font-family: inherit;
+	margin: 0px;
+}
+
+.exp-section {
+	display: flex;
+}
+
+.exp-left-section{
+    cursor: pointer;
+}

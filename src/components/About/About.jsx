@@ -5,6 +5,7 @@ import Proactive from '../../assets/proactive.png';
 import Timing from '../../assets/timing.png';
 import Responsive from '../../assets/responsive.png';
 import Logo from '../../assets/coding-man-icon.png';
+import Bar from '../../assets/header-bar.png';
 
 function About() {
 	return (
@@ -12,8 +13,12 @@ function About() {
 			<section id="about">
 				<div className="about-wrapper">
 					<div className="about-heading">
-						<h1>About</h1>
+						<h1>ABOUT</h1>
+						<span>
+							<img src={Bar} alt="" width="80px" />
+						</span>
 					</div>
+
 					<div className="about-points">
 						<ul className="about-points-list">
 							<li className="about-list-item">
@@ -72,7 +77,7 @@ function About() {
 								<h1>Who's this guy?</h1>
 								<p>
 									I'm <strong>Priyankar Dutta</strong>, and I wear the hat of
-									<strong>Full Stack Developer</strong>. This platform is more
+									<strong> Full Stack Developer</strong>. This platform is more
 									than just a digital space—it's a testament to my enduring
 									passion for websites, applications, technolgies and IT. My
 									journey in [briefly mention your journey or experience] has
@@ -86,7 +91,58 @@ function About() {
 									collective enthusiasm for [your niche]. Thank you for being a
 									part of our journey!
 								</p>
-								<div className="about-personal-skills">Skills</div>
+								<div className="about-personal-skills">
+									<div className="skills-list-section">
+										<ul className="skills-list">
+											<li>
+												<img src="https://skillicons.dev/icons?i=git" alt="" />
+											</li>
+											<li>
+												<img
+													src="https://skillicons.dev/icons?i=react"
+													alt=""
+												/>
+											</li>
+											<li>
+												<img src="https://skillicons.dev/icons?i=js" alt="" />
+											</li>
+
+											<li>
+												<img
+													src="https://skillicons.dev/icons?i=express"
+													alt=""
+												/>
+											</li>
+											<li>
+												<img
+													src="https://skillicons.dev/icons?i=nodejs"
+													alt=""
+												/>
+											</li>
+											<li>
+												<img
+													src="https://skillicons.dev/icons?i=mongodb"
+													alt=""
+												/>
+											</li>
+											<li>
+												<img
+													src="https://skillicons.dev/icons?i=mysql"
+													alt=""
+												/>
+											</li>
+											<li>
+												<img src="https://skillicons.dev/icons?i=java" alt="" />
+											</li>
+											<li>
+												<img src="https://skillicons.dev/icons?i=html" alt="" />
+											</li>
+											<li>
+												<img src="https://skillicons.dev/icons?i=css" alt="" />
+											</li>
+										</ul>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
