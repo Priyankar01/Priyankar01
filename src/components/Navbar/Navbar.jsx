@@ -20,8 +20,7 @@ function Navbar() {
 									activeClass="active"
 									to="about"
 									offset={-10}
-									duration={100}
-									onClick={handleLinkClick}>
+									duration={100}>
 									About
 								</Link>
 							</li>
@@ -30,8 +29,7 @@ function Navbar() {
 									activeClass="active"
 									to="projects"
 									offset={0}
-									duration={100}
-									onClick={handleLinkClick}>
+									duration={100}>
 									Projects
 								</Link>
 							</li>
@@ -40,8 +38,7 @@ function Navbar() {
 									activeClass="active"
 									to="experience"
 									offset={0}
-									duration={100}
-									onClick={handleLinkClick}>
+									duration={100}>
 									Experience
 								</Link>
 							</li>
@@ -51,8 +48,7 @@ function Navbar() {
 									activeClass="active"
 									to="contact"
 									offset={0}
-									duration={100}
-									onClick={handleLinkClick}>
+									duration={100}>
 									Contact
 								</Link>
 							</li>

@@ -4,6 +4,10 @@
 	padding: 5rem;
 }
 
+.exp-wrapper {
+	margin: 0 auto;
+}
+
 .exp-heading {
 	text-align: center;
 }
@@ -17,8 +21,68 @@
 
 .exp-section {
 	display: flex;
+	padding: 2rem;
 }
 
-.exp-left-section{
-    cursor: pointer;
+.exp-left-section {
+	cursor: pointer;
+}
+
+.exp-left-section button {
+	width: 10rem;
+	font-family: inherit;
+	font-size: 1.4rem;
+	font-weight: 500;
+	border: none;
+	border-left: 3px solid #1b242f;
+	border-bottom: 3px solid #fff;
+	background-color: #fff;
+	cursor: pointer;
+	padding: 2rem 0rem 2rem 1rem;
+	text-align: left;
+}
+.exp-left-section button:hover {
+	font-family: inherit;
+	border-bottom: 3px solid #1b242f;
+}
+
+.exp-right-section {
+	padding: 0 2rem;
+	margin-top: 1.5rem;
+}
+
+.exp-right-section div {
+	border-radius: 8px;
+	background-color: #f4f4f4;
+	padding: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exp-right-section h6 {
+	margin: 10px 0px 0px 0px;
+	font-size: 1.3rem;
+	color: #1b242f;
+	/* margin: 0rem; */
+}
+
+.exp-right-section p {
+	font-size: 1rem;
+	color: #555;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 950px) {
+	#experience {
+		padding: 3rem;
+	}
+
+	.exp-section {
+		flex-direction: column;
+		padding: 0rem;
+	}
+
+	.exp-right-section div {
+		padding: 0rem;
+	}
 }
