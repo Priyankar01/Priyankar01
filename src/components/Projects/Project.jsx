@@ -7,12 +7,14 @@ function Project() {
 		<>
 			<section id="projects">
 				<div className="project-wrapper">
-					<p className='project-heading'>PROJECTS</p>
+					<p className="project-heading">PROJECTS</p>
 					<span>
 						<img src={Bar} alt="" width="80px" />
 					</span>
 					<div>
-						<p className='ps'>I am still deciding what projects I should showcase.</p>
+						<p className="ps">
+							I am still deciding which projects I should showcase.
+						</p>
 					</div>
 				</div>
 			</section>

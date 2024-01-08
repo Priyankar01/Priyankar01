@@ -5,6 +5,32 @@ import Logo from '../../assets/logo.png';
 import MenuIcon from '@mui/icons-material/MenuRounded';
 import CloseIcon from '@mui/icons-material/Close';
 
+function toggleNavbar() {
+	const menuIcon = document.getElementById('menu-icon');
+	const closeIcon = document.getElementById('close-icon');
+	const links = document.querySelector('.navbar-link-list');
+
+	// Toggle the visibility of the menu icon and close icon
+	menuIcon.style.display = menuIcon.style.display === 'none' ? 'block' : 'none';
+	closeIcon.style.display =
+		closeIcon.style.display === 'none' ? 'block' : 'none';
+
+	// Toggle the visibility of the navigation links
+	links.classList.toggle('show-links');
+}
+
+// function handleLinkClick() {
+// 	const menuIcon = document.getElementById('menu-icon');
+// 	const closeIcon = document.getElementById('close-icon');
+// 	const links = document.querySelector('.navbar-link-list');
+
+// 	// Set the display explicitly to show the menu icon and hide the close icon
+// 	menuIcon.style.display = 'block';
+// 	closeIcon.style.display = 'none';
+
+// 	// Hide the navigation links
+// 	links.classList.remove('show-links');
+// }
 function Navbar() {
 	return (
 		<>
@@ -42,7 +68,6 @@ function Navbar() {
 									Experience
 								</Link>
 							</li>
-
 							<li>
 								<Link
 									activeClass="active"
@@ -71,32 +96,6 @@ function Navbar() {
 			</nav>
 		</>
 	);
-}
-
-function toggleNavbar() {
-	const menuIcon = document.getElementById('menu-icon');
-	const closeIcon = document.getElementById('close-icon');
-	const links = document.querySelector('.navbar-link-list');
-
-	// Toggle the visibility of the menu icon and close icon
-	menuIcon.style.display = menuIcon.style.display === 'none' ? 'block' : 'none';
-	closeIcon.style.display =
-		closeIcon.style.display === 'none' ? 'block' : 'none';
-
-	// Toggle the visibility of the navigation links
-	links.classList.toggle('show-links');
-}
-function handleLinkClick() {
-	const menuIcon = document.getElementById('menu-icon');
-	const closeIcon = document.getElementById('close-icon');
-	const links = document.querySelector('.navbar-link-list');
-
-	// Set the display explicitly to show the menu icon and hide the close icon
-	menuIcon.style.display = 'block';
-	closeIcon.style.display = 'none';
-
-	// Hide the navigation links
-	links.classList.remove('show-links');
 }
 
 export default Navbar;
