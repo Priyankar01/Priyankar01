@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './experience.css';
-import Bar from '../../assets/header-bar.png';
+import Bar from '../../assets/header-bar-black.png';
 
 function Experience() {
 	const [selectedExperience, setSelectedExperience] = useState(null);

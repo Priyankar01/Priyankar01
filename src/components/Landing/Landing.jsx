@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './landing.css';
 import LandingImg from '../../assets/coding-man-icon.png';
 import { Link } from 'react-scroll';

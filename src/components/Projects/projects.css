@@ -1,1 +1,18 @@
+.project-wrapper {
+	background-color: #252934;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5rem;
+	flex-direction: column;
+}
 
+.project-heading {
+	font-size: 3rem;
+	margin: 0;
+}
+
+.ps {
+	color: #04c2c9;
+}

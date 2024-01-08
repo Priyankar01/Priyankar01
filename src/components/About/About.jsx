@@ -1,11 +1,12 @@
 import React from 'react';
 import './about.css';
+import { Link } from 'react-scroll';
 import Dynamic from '../../assets/dynamic.png';
 import Proactive from '../../assets/proactive.png';
 import Timing from '../../assets/timing.png';
 import Responsive from '../../assets/responsive.png';
 import Logo from '../../assets/coding-man-icon.png';
-import Bar from '../../assets/header-bar.png';
+import Bar from '../../assets/header-bar-black.png';
 
 function About() {
 	return (
@@ -76,21 +77,17 @@ function About() {
 							<div className="about-personal-content">
 								<h1>Who's this guy?</h1>
 								<p>
-									I'm <strong>Priyankar Dutta</strong>, and I wear the hat of
-									<strong> Full Stack Developer</strong>. This platform is more
+									I'm <strong>Priyankar Dutta</strong>, and I wear the hat of a{' '}
+									<strong>Full Stack Developer</strong>. This platform is more
 									than just a digital space—it's a testament to my enduring
-									passion for websites, applications, technolgies and IT. My
-									journey in [briefly mention your journey or experience] has
-									been a fascinating exploration of [key aspects of your
-									mission]. Here at [Your Name or Brand], our commitment is to
-									[briefly describe the core principles or values you uphold].
-									We aspire to [mention key goals or objectives], offering you
-									[briefly describe the unique value or experience] as we
-									navigate the exciting realms of [your niche]. Join me in this
-									vibrant community, where we share not just information but a
-									collective enthusiasm for [your niche]. Thank you for being a
-									part of our journey!
+									passion for websites, applications, technologies and IT. My
+									journey as a developer has been a fascinating exploration of
+									evolution and learning. Join me in this vibrant community,
+									where we share not just information but a collective
+									enthusiasm for web development. Thank you for being a part of
+									our journey!
 								</p>
+
 								<div className="about-personal-skills">
 									<div className="skills-list-section">
 										<ul className="skills-list">
@@ -143,6 +140,15 @@ function About() {
 										</ul>
 									</div>
 								</div>
+								<button className="content-btn">
+									<Link
+										activeClass="active"
+										to="footer"
+										offset={-10}
+										duration={100}>
+										Connect With Me
+									</Link>
+								</button>
 							</div>
 						</div>
 					</div>
